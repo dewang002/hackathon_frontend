@@ -40,7 +40,7 @@ function AboutContent() {
           <div className="context  ml-[15%] w-[70%] ">
             {info.map((elem, index) => {
               return (
-                <div className=" w-6/12 mx-auto rounded drop-shadow-1xl m-4 ">
+                <div key={elem.heading} className=" w-6/12 mx-auto rounded drop-shadow-1xl m-4 ">
                   <div
                     onClick={() => setshow(index)}
                     className="w-full  h-[6vh] flex justify-between items-center p-2 bg-zinc-800 hover:bg-slate-500 duration-100 cursor-pointer rounded text-xl"

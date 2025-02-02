@@ -2,6 +2,10 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Nav from './component/Nav'
 import Home from './component/Home'
+import About from './component/About'
+import Vision from './component/Vision'
+import Offering from './component/Offering'
+import Contact from './component/Contact'
 
 const App = () => {
   return (
@@ -10,6 +14,10 @@ const App = () => {
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/vision' element={<Vision />} />
+        <Route path='/offering' element={<Offering />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       </BrowserRouter>
 

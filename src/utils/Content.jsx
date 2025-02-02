@@ -10,7 +10,7 @@ function Content() {
   });
 
   return (
-    <div className="min-h-[100vh] w-full mb-[4vw]">
+    <div className="my-10 mb-56 w-full">
       <div className="w-full h-32 flex justify-end items-center gap-2 flex-col mb-[10vw]">
         <h1 className="heading text-white text-4xl font-bold ">
           Our Offerings
@@ -37,11 +37,11 @@ function Content() {
             with precision and speed.
           </p>
         </div>
-        <div className=" w-[2%] h-[2px] bg-white translate-y-[8vh]"></div>
+        <div className=" w-[2%] h-[2px] bg-zinc-200 translate-y-[8vh]"></div>
         {/* -------------middle line------------ */}
-        <div className="deviderLine h-full w-[1px] bg-white"></div>
+        <div className="deviderLine h-full w-[1px] bg-zinc-200"></div>
         {/* ------------------------------------ */}
-        <div className=" w-[2%] h-[2px] bg-white translate-y-[40vh]"></div>
+        <div className=" w-[2%] h-[2px] bg-zinc-200 translate-y-[40vh]"></div>
         <div className="contentBox2 w-[40%] flex flex-col items-start mt-[16%] ml-5 gap-2">
           <div className="h-[2.4vw] w-[15vw] flex justify-center ">
             {" "}

@@ -7,7 +7,7 @@ import Content from '../utils/Content'
 import Contact from '../component/Contact'
 const Home = () => {
   return (
-    <div className=' overflow-hidden'>
+    <div className='overflow-hidden'>
         <HeroComponent/>
         <Content />
         <AboutContent />
