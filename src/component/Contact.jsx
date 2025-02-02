@@ -88,6 +88,7 @@ function Contact() {
               placeholder="Type your message here..."
               className="rounded h-[16vw] bg-zinc-200 outline-none w-[74%]"
             />
+            <button className="px-4 py-2 bg-blue-800 text-white rounded-md">Submit</button>
           </form>
         </div>
       </div>
