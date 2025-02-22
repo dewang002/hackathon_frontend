@@ -26,7 +26,7 @@ function Offering() {
               <h1 className="text-3xl mb-4">AI Data Analyst</h1>
             </div>
 
-            <p className="w-[100%]  rounded text-center text-lg font-light">
+            <p className="w-[100%]  rounded text-center  text-lg font-light">
               AI Data Analyst Meet Your AI Data Analyst Unlock the full
               potential of your data with RAVIAN AI’s Data Analyst—an
               intelligent platform designed to transform raw data into

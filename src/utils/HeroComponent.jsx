@@ -19,7 +19,7 @@ function HeroComponent() {
   });
   return (
     <>
-      <div className="flex justify-start flex-col items-center h-[100vh]  w-full cursor-default overflow-hidden">
+      <div className="flex justify-start flex-col items-center h-[100vh] text-white w-full cursor-default overflow-hidden">
         <button className="mt-[9vw] z-40 outline-1 px-8 py-2 rounded-full uppercase active:scale-[0.96] bg-zinc-500 hover:bg-linear-to-br from-zinc-500 to-zinc-500 transition ease-in-out delay-75">
           Try Ravian
         </button>
